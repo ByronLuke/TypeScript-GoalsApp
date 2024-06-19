@@ -17,7 +17,7 @@ const summary= useRef<HTMLInputElement>(null)
         const enteredSummary = summary.current!.value;
 
         e.currentTarget.reset();
-        onAddGoal(enteredGoal,enteredSummary)
+        onAddGoal(enteredGoal,enteredSummary) 
     }
     
     return <form onSubmit={handleSubmit}>
